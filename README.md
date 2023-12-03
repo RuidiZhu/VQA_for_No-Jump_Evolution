@@ -32,7 +32,7 @@ I will use QuTip package extensively in this simulation. Make sure you install t
 
 ## Acknowledgement
 
-I thank for stimulating discussion with Takahiro Tsunoda (postdoc in Robert Scheokolf's group).
+I thank for stimulating discussion with Takahiro Tsunoda (postdoc in Robert Schoelkopf's group).
 
 
 
