@@ -14,7 +14,9 @@ The work presented in this tutorial was inspired by the paper [[K. Heya, et al. 
 
 ## A Brief Introduction to Superconducting Dual-rail Qubits
 
-Superconducting qubits are regarded as one of the leading candidates for quantum computing hardware due to many advantages, such as strong coupling between qubits, fast gate operations and good scalability. However, as a trade-off of the strong couplings, it is difficult to isolate the superconducting qubits from the external environment, resulting in decoherence -- one of the major issues with superconducting qubits. Therefore, it is natural to think of modifying the hardware architecture to have longer qubit coherence time and better error correction capabilities. Superconducting microwave cavities are attractive candidates for hardware-efficient error correction. Microwave cavity resonators typically have much longer lifetimes (up to $\sim2s$) than the traditional nonlinear superconducting qubits containing Josephson junctions ($\sim300 \mu s$).
+Superconducting qubits are regarded as one of the leading candidates for quantum computing hardware due to many advantages, such as strong coupling between qubits, fast gate operations and good scalability. However, as a trade-off of the strong couplings, it is difficult to isolate the superconducting qubits from the external environment, resulting in decoherence -- one of the major issues with superconducting qubits. Therefore, it is natural to think of modifying the hardware architecture to have longer qubit coherence time and better error correction capabilities. Superconducting microwave cavities are attractive candidates for hardware-efficient error correction. Microwave cavity resonators typically have much longer lifetimes (up to $\sim2s$[[A. Romanenko, et al. 2020]](https://journals.aps.org/prapplied/pdf/10.1103/PhysRevApplied.13.034032)) than the traditional nonlinear superconducting qubits containing Josephson junctions ($\sim300 \mu s$[[A. Place, et al. 2021]](https://www.nature.com/articles/s41467-021-22030-5)).
+
+
 
 <img width="481" alt="dual_rail" src="https://github.com/Superrudder/VQA-for-No-Jump-Evolution/assets/86409906/8dc92a65-4751-48fb-96f6-79b0d94167ad">
 
@@ -29,6 +31,7 @@ I will use QuTip package extensively in this simulation. Make sure you install t
 ```
     pip install qutip
 ```
+Ideally, I don't expect the version of the QuTip package matter for this tutorial. But in case anything went wrong, I'm using QuTip version 4.7.3 to run the simulation.
 
 ## Acknowledgement
 
